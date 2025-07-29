@@ -1,7 +1,6 @@
 
 import React from 'react';
 import Logo from './Logo';
-import { NAV_LINKS } from '../constants';
 
 const SocialIcon: React.FC<{ href: string; iconPath: string; label: string }> = ({ href, iconPath, label }) => (
   <a href={href} className="text-gray-400 hover:text-white transition-colors">
